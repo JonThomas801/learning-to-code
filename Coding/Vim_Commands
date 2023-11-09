@@ -1,0 +1,88 @@
+// Hello world!
+// I am learning how to use the VIM text editor.
+
+echo "Hi mom!"
+
+echo "I use vim!"
+
+i or a - Insert mode
+<Esc> - Normal mode
+v - Visual mode
+
+h - cursor goes left
+j - cursor goes down
+k - cursor goes up
+l - cursor goes right
+
+w - cursor goes to the start of the next word
+e - cursor goes to the end of the word
+b - cursor goes to the beginning of the word
+0 - cursor goes to the beginning of the line
+$ - cursor goes to the end of the line
+* - cursor goes to next occurence of current word
+# - cursor goes to previous occurence of current word
+
+f - cursor goes to the next (or previous) occurence of a character
+% - cursor goes to adjacent bracket (), [], or {}
+
+yy or Y - copy current line
+dd - delete current line (like the cut function)
+p - paste to the line below current line
+P - paste to the line above current line
+
+~Saving and Exiting Files~
+
+:q - quit
+:q! - quit without saving
+ZQ - quit without saving
+:w - save
+:w filename - save as filename
+:wq - save and close
+:x - save and close
+ZZ - save and close
+:sav - save file under a new name and continue editing the new copy
+:w !sudo tee % - write out the file using the sudo and tee command
+
+~Working with Multiple Files~
+
+:e file_name - open file in a new buffer
+:bn - move to next buffer
+:bp - move to previous buffer
+:bd - close buffer
+:b# - move to a number-specified buffer
+:b file_name - move to buffer with file_name
+:ls - list all open buffers
+:sp file_name - 
+:vs file_name - 
+:vert ba - 
+:tab ba - 
+gt - move to next tab
+gT - move to previous tab
+<Ctrl> + ws - split viewport
+<Ctrl> + wv - split viewport vertically
+<Ctrl> + ww - switch viewports
+<Ctrl> + wq - quit a viewport
+<Ctrl> + wx - exchange current viewport with next one
+<Ctrl> + = - make all viewports equal in height and width
+
+~Marks and Jumps~
+m[a-z] - mark text using character mode (from a to z)
+M[a-z] - mark lines using line mode (from a to z)
+`a - jump to a postion marked a
+`y`a - jump to position marked >a>
+`. - jump to last change in file
+`0 - jump to position where Vim was last exited
+`` - jump to last jump
+:marks - list all marks
+:jumps - list all jumps
+:changes - list all changes
+<Ctrl> + i - move to next instance in jump list
+<Ctrl> + o - move to previous instance in jump list
+g, - move to next instance in jump list
+g; - move to previous instance in jump list
+
+~Macros~
+qa - record marco a
+q - stop recording macro
+@a - run macro a
+@@ - run last macro again

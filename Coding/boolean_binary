@@ -1,0 +1,13 @@
+Basic operations
+	Binary/Dyadic operators
+		Logical Conjunction - AND
+			x /\ y, x AND y, Kxy
+			1 AND 1 = 1, all else 0
+		Logical Disjunction - OR
+			x OR y, x \/ y, Axy
+			0 OR 0 = 0, all else 1
+	Unary operator
+		Logical Negation - NOT
+			NOT x, Nx, x', !z
+			NOT 0 = 1; NOT 1 = 0
+Secondary operations
