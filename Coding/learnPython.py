@@ -97,3 +97,8 @@ print(x + y + z)
 x = 5
 x += 3 is also x = x = x + 3
 """
+from datetime import datetime
+now = datetime.now()
+
+print '%02d-%02d-%04d %02d:%02d:%02d' % (now.month, now.day, now.year, now.hour, now.minute, now.second)
+# These above lines should be able to tell the time.
