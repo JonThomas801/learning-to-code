@@ -1,4 +1,5 @@
 //The "Java Virtual Machine" or "JVM" for short makes it so Java can compile the same exact syntax on different operating systems.
+//Java features "static typing" which means it will not compile if a variable is incorrectly defined. This is called a type declaration bug.
 
 public class LearnJava {
 //This establishes a class, a blueprint or template for an object in Java.
