@@ -22,6 +22,9 @@ public class LearnJava {
     String chorusLine2 = new String ("If I'm alive and well, will you be there holding my hand?"); //This calls the String class to create a new string object
     /*
     Escape characters list
+    \" - prints double quotes into string
+    \\ - prints backslash into string
+    \n - prints a new line of text
     */
   }
 }
