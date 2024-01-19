@@ -12,6 +12,7 @@ public class LearnJava {
     System.out.print("This sentence");
     System.out.print("is false!"); // Using "print" instead of "println"
 
+    //Variable names are case-sensitive and can start with a valid letter, a dollar sigh ($), or an underscore (_)
     //Primitive data types are the most basic data types that are built into the system, such as int, double, and boolean
 
     int yearGitWasFounded = 2005;
