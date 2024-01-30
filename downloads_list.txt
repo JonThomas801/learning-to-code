@@ -1,0 +1,19 @@
+APT-GET for Debian-based distros:
+aalib
+aria2
+cmatrix
+curl
+git
+lynx
+rtorrent
+sl
+tor
+vim
+w2m
+wget
+
+code
+deluge
+firefox
+thunderbird
+vlc
