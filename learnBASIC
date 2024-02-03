@@ -1,0 +1,2 @@
+10 print "You didn't say the magic word! "
+20 goto 10
