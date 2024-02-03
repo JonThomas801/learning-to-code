@@ -1,43 +1,6 @@
 TUI:
-aalib
-aria2
-cmatrix
-curl
-gcc
-git
-gzip
-kubo
-lua
-ly
-lynx
-make
-man-db
-neofetch
-nnn
-nodejs
-onefetch
-openssh
-python
-rtorrent
-rustup
-ruby
-sl
-tor
-unzip
-vim
-wget
-w3m
-xz
-yay
-yggdrasil
-zip
+sudo pacman -Sy --noconfirm aalib aria2 cmatrix curl gcc git gzip kubo lua ly lynx make man-db neofetch nnn nodejs onefetch openssh python rtorrent rustup ruby sl tor unzip vim wget w3m xz yay yggdrasil zip
 
 GUI:
-
-code
-deluge
-firefox
-openvpn
-thunderbird
-torbrowser-launcher
+sudo pacman -Sy --noconfirm code deluge firefox openvpn thunderbird torbrowser-launcher
 blc
