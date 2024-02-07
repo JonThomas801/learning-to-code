@@ -1,6 +1,5 @@
 APT-GET for Debian-based distros:
-aalib
-aria2
+sudo apt-get install aria2
 cmatrix
 curl
 git
