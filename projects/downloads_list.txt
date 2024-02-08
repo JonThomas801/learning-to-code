@@ -1,18 +1,8 @@
 APT-GET for Debian-based distros:
-sudo apt-get install aria2
-cmatrix
-curl
-git
-lynx
-rtorrent
-sl
-tor
-vim
-w2m
-wget
+sudo apt-get install aria2 build-essentials cmatrix curl git libpam0g-dev libxcb-xkb-dev lynx rtorrent sl tor vim w2m wget
 
 code
 deluge
-firefox
+firefox-esr
 thunderbird
 vlc
