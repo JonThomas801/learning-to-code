@@ -1,6 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<learnXML>
-  <head>
-    <title>Learn XML: Extensible Markup Language</title>
-  </head>
+<?xml version="1.0" encoding="UTF-8"?> <!-- This is the XML prolog, which is optional but must always appear on the first line -->
+<learnXML> <!-- This is the root element -->
+  <head>Learn XML: Extensible Markup Language</head>
+  <body>XML is a markup language designed to carry data across the web. It does not have predefined tags like HTML, so the author of the code needs to define them.</body>
 </learnXML>
+
+<!--
+5 predefined XML entities
+&lt;   <
+&gt;   >
+&amp;   &
+&apos;   '
+&quot;   "
+-->
