@@ -1,58 +1,17 @@
-print("\nWelcome to A1Z26.rb!\n")
-plainText = input("Plaintext: ")
-cipherText = plainText.upper()
+program_runs = True
 
-if "A" in cipherText:
-    cipherText = cipherText.replace("A", "1-")
-if "B" in cipherText:
-    cipherText = cipherText.replace("B", "2-")
-if "C" in cipherText:
-    cipherText = cipherText.replace("C", "3-")
-if "D" in cipherText:
-    cipherText = cipherText.replace("D", "4-")
-if "E" in cipherText:
-    cipherText = cipherText.replace("E", "5-")
-if "F" in cipherText:
-    cipherText = cipherText.replace("F", "6-")
-if "G" in cipherText:
-    cipherText = cipherText.replace("G", "7-")
-if "H" in cipherText:
-    cipherText = cipherText.replace("H", "8-")
-if "I" in cipherText:
-    cipherText = cipherText.replace("I", "9-")
-if "J" in cipherText:
-    cipherText = cipherText.replace("J", "10-")
-if "K" in cipherText:
-    cipherText = cipherText.replace("K", "11-")
-if "L" in cipherText:
-    cipherText = cipherText.replace("L", "12-")
-if "M" in cipherText:
-    cipherText = cipherText.replace("M", "13-")
-if "N" in cipherText:
-    cipherText = cipherText.replace("N", "14-")
-if "O" in cipherText:
-    cipherText = cipherText.replace("O", "15-")
-if "P" in cipherText:
-    cipherText = cipherText.replace("P", "16-")
-if "Q" in cipherText:
-    cipherText = cipherText.replace("Q", "17-")
-if "R" in cipherText:
-    cipherText = cipherText.replace("R", "18-")
-if "S" in cipherText:
-    cipherText = cipherText.replace("S", "19-")
-if "T" in cipherText:
-    cipherText = cipherText.replace("T", "20-")
-if "U" in cipherText:
-    cipherText = cipherText.replace("U", "21-")
-if "V" in cipherText:
-    cipherText = cipherText.replace("V", "22-")
-if "W" in cipherText:
-    cipherText = cipherText.replace("W", "23-")
-if "X" in cipherText:
-    cipherText = cipherText.replace("X", "24-")
-if "Y" in cipherText:
-    cipherText = cipherText.replace("Y", "25-")
-if "Z" in cipherText:
-    cipherText = cipherText.replace("Z", "26-")
+print("\n### Welcome the A1Z26.py! ###\n")
+usertext = input("Please type in your plaintext: ")
+plaintext = usertext.upper
 
-print("Ciphertext: " + cipherText)
+encrypt_dict = {"A": "1", "B": "2", "C": "3", "D": "4", "E": "5", "F": "6", "G": "7", "H": "8", "I": "9", "J": "10", "K": "11", "L": "12", "M": "13", "N": "14",
+        "O": "15", "P": "16", "Q": "17", "R": "18", "S": "19", "T": "20", "U": "21", "V": "22", "W": "23", "X": "24", "Y": "25", "Z": "26"}
+
+ciphertext = ""
+
+for i in range(0, len(plaintext)):
+    if plaintext[i] in encrypt_dict.keys():
+        ciphertext += encrypt_dict[plaintext[i]]
+    else:
+        ciphertext += plaintext[i]
+print(ciphertext)
