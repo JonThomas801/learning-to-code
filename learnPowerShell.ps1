@@ -2,3 +2,5 @@
 
 Write-Host "Welcome to learnPowerShell.ps1!"
 $name = Read-Host -Prompt "What is your name?"
+
+[Int]$num_1 = 42
